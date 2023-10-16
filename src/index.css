@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #6c6b6f;
+  background-color: #151518;
+}
+
+.Mui-focused fieldset {
+  border: 2px solid #ff4f47 !important;
+}
+
+.Mui-selected {
+  border-radius: 5px;
+}
+.MuiPickersDay-today {
+  border: 1px solid #ff4f47 !important;
+}
+.Mui-selected,
+.MuiClockPointer-root,
+.MuiClock-pin {
+  background-color: #ff4f47 !important;
+}
+
+.MuiPickersCalendarHeader-label {
+  color: #fff;
+}
+.MuiClockPointer-thumb {
+  border: 16px solid #ff4f47 !important;
+}
+.MuiLinearProgress-root {
+  background-color: #1c1b1f !important;
+}
+.MuiLinearProgress-bar {
+  background-color: #ff4f47 !important;
+}
+.MuiFormControl-root {
+  width: 100% !important;
+}
+.MuiSelect-select {
+  background-color: #151518 !important;
+  color: #817e87 !important;
+}
+.MuiFormLabel-root {
+  color: rgb(142, 142, 142, 0.5) !important;
+  font-weight: 700 !important;
+}
+
+.Mui-focused {
+  color: #ff4f47 !important;
+  background: #151518 !important;
+  padding-right: 4px !important;
+}
+.MuiPaper-root {
+  background-color: #151518 !important;
+}
+.MuiPaper-root .Mui-selected {
+  background-color: #6c6b6f !important;
+}
+.MuiList-padding {
+  padding: 0px !important;
+}
+.MuiMenuItem-root {
+  color: #ffff !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-bottom: 2px solid rgba(108, 107, 111, 0.1) !important;
+  border-right: 2px solid rgba(108, 107, 111, 0.1) !important;
+  border-left: 2px solid rgba(108, 107, 111, 0.1) !important;
+}
+.MuiTabs-flexContainer > .Mui-selected {
+  background-color: transparent !important;
+  color: #ff4f47 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
+}
